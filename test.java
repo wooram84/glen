@@ -21,6 +21,7 @@ public class Test{
 					empty = empty + " ";
 				}
 				System.out.println(ast);
+				// print *   *
 				for(int inc3 = 0; inc3 <= loopCnt; inc3++){
 					System.out.print("*");
 					System.out.print(empty);
@@ -28,7 +29,7 @@ public class Test{
 				}
 				
 				System.out.println(msg + "  *");
-				
+				// print *   *
 				for(int inc3 = 0; inc3 <= loopCnt; inc3++){
 					System.out.print("*");
 					System.out.print(empty);
